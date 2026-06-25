@@ -146,5 +146,3 @@ This project is released under the [MIT License](LICENSE).
 ## Author
 
 S.SIMANCHAL RAO
-
-Add your name, GitHub profile link, and contact/portfolio link here.
