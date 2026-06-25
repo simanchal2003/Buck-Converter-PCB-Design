@@ -57,7 +57,7 @@ Catch Diode:       1N5822 — must exceed Vin in reverse rating and Iout(max) in
 
 > Component values were taken directly from the LM2596 datasheet's component selection guide rather than calculated from first principles, in line with the manufacturer's recommended design procedure for this IC.
 
-**Schematic file:** [`hardware/buck_converter.kicad_sch`](hardware/buck_converter.kicad_sch)
+**Schematic file:** `buck_converter.kicad_sch` (add this to the repo if not already present)
 
 ---
 
@@ -71,7 +71,7 @@ The board is a 2-layer design with the following layout practices applied:
 - **Thermal considerations**: adequate copper pour and via stitching near the regulator IC for heat dissipation
 - **Net separation**: power and signal/feedback paths kept apart to avoid switching noise coupling into sensitive nets
 
-**PCB layout file:** [`hardware/buck_converter.kicad_pcb`](hardware/buck_converter.kicad_pcb)
+**PCB layout file:** `buck_converter.kicad_pcb` (add this to the repo if not already present)
 
 ---
 
@@ -84,29 +84,25 @@ Before generating fabrication outputs, the design was validated using KiCad's bu
 | Electrical Rule Check (ERC) | KiCad Schematic Editor | No errors/warnings outstanding |
 | Design Rule Check (DRC) | KiCad PCB Editor | No clearance, connectivity, or footprint violations |
 
-Reports: [`validation/ERC_report.pdf`](validation/ERC_report.pdf) · [`validation/DRC_report.pdf`](validation/DRC_report.pdf)
+Reports: `ERC_report.pdf` · `DRC_report.pdf` (add these to the repo once exported from KiCad)
 
 ---
 
-## Repository Structure
+## Repository Files
 
-```
-buck-converter-pcb/
-├── hardware/
-│   ├── buck_converter.kicad_pro      # KiCad project file
-│   ├── buck_converter.kicad_sch      # Schematic
-│   └── buck_converter.kicad_pcb      # PCB layout
-├── manufacturing/
-│   ├── gerbers/                      # Gerber files (RS-274X)
-│   ├── buck_converter.drl            # Excellon drill file
-│   ├── BOM.csv                       # Bill of Materials
-│   └── pick_and_place.csv            # Component placement data
-├── validation/
-│   ├── ERC_report.pdf
-│   └── DRC_report.pdf
-└── docs/
-    └── Buck_Converter_Design_Report.docx
-```
+| File | Description |
+|---|---|
+| `README.md` | This file — project overview and documentation |
+| `LICENSE` | MIT license |
+| `Buck_Converter_Design_Report.docx` | Detailed design report with calculations, layout rationale, and validation results |
+| `BOM.csv` | Bill of Materials with manufacturer part numbers and quantities |
+| `pick_and_place.csv` | Component placement data for assembly |
+| `buck_converter.kicad_pro` | KiCad project file *(add once exported from KiCad)* |
+| `buck_converter.kicad_sch` | Schematic file *(add once exported from KiCad)* |
+| `buck_converter.kicad_pcb` | PCB layout file *(add once exported from KiCad)* |
+| `ERC_report.pdf` | Electrical Rule Check report *(add once exported from KiCad)* |
+| `DRC_report.pdf` | Design Rule Check report *(add once exported from KiCad)* |
+| `*.gbr`, `*.drl` | Gerber and drill files for fabrication *(add once exported from KiCad)* |
 
 ---
 
@@ -122,7 +118,7 @@ buck-converter-pcb/
 | J1 | Input Connector | 2-pin terminal block | THT |
 | J2 | Output Connector | 2-pin terminal block | THT |
 
-Full BOM with manufacturer part numbers and quantities: [`manufacturing/BOM.csv`](manufacturing/BOM.csv)
+Full BOM with manufacturer part numbers and quantities: [`BOM.csv`](BOM.csv)
 
 ---
 
@@ -150,3 +146,5 @@ This project is released under the [MIT License](LICENSE).
 ## Author
 
 S.SIMANCHAL RAO
+
+Add your name, GitHub profile link, and contact/portfolio link here.
