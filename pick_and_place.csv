@@ -1,0 +1,9 @@
+Reference,Value,Package,PosX,PosY,Rotation,Side
+U1,LM2596S-5.0,TO-263-5,0.0,0.0,0,top
+L1,68uH,RLB0914,0.0,0.0,0,top
+D1,1N5822,DO-201AD,0.0,0.0,0,top
+C1,100uF,Radial_THT,0.0,0.0,0,top
+C2,220uF,Radial_THT,0.0,0.0,0,top
+J1,Terminal_Block,THT_2pin,0.0,0.0,0,top
+J2,Terminal_Block,THT_2pin,0.0,0.0,0,top
+Note: Replace placeholder coordinates with actual values exported from your KiCad PCB

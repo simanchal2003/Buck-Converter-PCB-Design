@@ -1,0 +1,8 @@
+Reference,Component,Description,Value/Part Number,Footprint,Quantity,Manufacturer,Supplier Part No.
+U1,Switching Regulator,Fixed 5V 3A Step-Down Switching Regulator,LM2596S-5.0,TO-263-5,1,Texas Instruments,LM2596S-5.0/NOPB
+L1,Power Inductor,Radial Leaded Power Inductor,68uH,Radial THT (RLB0914),1,Bourns,RLB0914-680KL
+D1,Schottky Diode,3A 40V Schottky Catch Diode,1N5822,DO-201AD,1,Vishay/onsemi,1N5822
+C1,Electrolytic Capacitor,Input Bulk/Decoupling Capacitor,100uF 25V,Radial THT (8x11.5mm),1,Generic,-
+C2,Low-ESR Electrolytic Capacitor,Output Filter Capacitor,220uF 25V Low-ESR,Radial THT (10x12.5mm),1,Generic,-
+J1,Terminal Block,2-Pin Input Connector,5.08mm pitch,THT 2-pin,1,Generic,-
+J2,Terminal Block,2-Pin Output Connector,5.08mm pitch,THT 2-pin,1,Generic,-
